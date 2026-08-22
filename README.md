@@ -10,12 +10,15 @@ Statyczna, jednoplikowa makieta strony głównej PrimeShield. Bez frameworków i
 
 ## Struktura
 
+Wszystkie pliki leżą płasko, bez podfolderów (żeby dało się je bez problemu przeciągnąć na GitHub przez "Upload files"):
+
 ```
-index.html      — cała strona (HTML + CSS + JS w jednym pliku)
-assets/
-  favicon.png   — ikonka karty przeglądarki
-  logo-simple.png — wordmark PrimeShield w nagłówku i stopce
-  founder.webp  — zdjęcie Szymona Pawlińskiego w sekcji zespołu
+index.html
+style.css
+script.js
+favicon.png       — ikonka karty przeglądarki
+logo-simple.png   — wordmark PrimeShield w nagłówku i stopce
+founder.webp      — zdjęcie Szymona Pawlińskiego w sekcji zespołu
 ```
 
 ## Uwaga dot. bramki cenowej
