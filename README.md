@@ -16,7 +16,7 @@ Wszystkie pliki leżą płasko, bez podfolderów (żeby dało się je bez proble
 index.html
 style.css
 script.js
-favicon.png       — ikonka karty przeglądarki
+favicon.jpg       — ikonka karty przeglądarki
 logo-simple.png   — wordmark PrimeShield w nagłówku i stopce
 founder.webp      — zdjęcie Szymona Pawlińskiego w sekcji zespołu
 ```
