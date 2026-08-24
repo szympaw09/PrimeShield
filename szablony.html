@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baza formatek — PrimeShield PPF</title>
+<link rel="icon" type="image/jpeg" href="favicon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="logo" aria-label="Strona główna PrimeShield"><img src="logo-simple.png" alt="PrimeShield PPF"></a>
+      <div class="nav-links">
+        <a href="index.html#kalkulator">Oszczędność</a>
+        <a href="index.html#produkty">Produkty</a>
+        <a href="szablony.html">Szablony</a>
+        <a href="index.html#technologia">Technologia</a>
+        <a href="index.html#zespol">O firmie</a>
+        <a href="index.html#aplikacja">Kontakt</a>
+      </div>
+      <a href="https://wa.me/48533188235" class="btn pill" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="white" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>Wycena w 15 minut</a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Otwórz menu" aria-expanded="false">
+        <svg class="icon-hamburger" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/>
+        </svg>
+        <svg class="icon-close" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<div class="mobile-menu-overlay" id="mobileMenuOverlay" aria-hidden="true">
+  <div class="mobile-menu-inner">
+    <nav class="mobile-menu-links">
+      <a href="index.html#kalkulator">Oszczędność</a>
+      <a href="index.html#produkty">Produkty</a>
+      <a href="szablony.html">Szablony</a>
+      <a href="index.html#technologia">Technologia</a>
+      <a href="index.html#zespol">O firmie</a>
+      <a href="index.html#aplikacja">Kontakt</a>
+    </nav>
+  </div>
+</div>
+
+<section class="hero" style="padding:96px 0 0;">
+  <div class="wrap">
+    <div class="hero-single">
+      <div class="eyebrow reveal">Baza formatek</div>
+      <h1 class="reveal d1" style="font-size:clamp(32px,5vw,56px);"><span class="hero-lead-line" style="font-size:0.5em;">Ponad 400 000 gotowych wykrojów</span><br>Sprawdź, czy mamy formatkę dla Twojego auta.</h1>
+      <p class="lead reveal d2">Wyszukaj po marce, modelu i roczniku — jeśli auto jest w bazie, formatka jest gotowa do wycięcia od ręki, bez czekania na indywidualny projekt.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="template-search-frame reveal d1">
+      <iframe
+        src="https://s.hcut.cn/search?___lang=en-us"
+        title="Wyszukiwarka szablonów formatek PPF"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <p class="table-note">Wyszukiwarka dostarczana przez dostawcę oprogramowania do cięcia, na podstawie udzielonej licencji.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <a href="index.html" class="logo logo-footer-link" aria-label="Strona główna PrimeShield"><img src="logo-simple.png" alt="PrimeShield PPF"></a>
+      <div class="foot-links">
+        <a href="index.html#kalkulator">Oszczędność</a>
+        <a href="index.html#produkty">Produkty</a>
+        <a href="szablony.html">Szablony</a>
+        <a href="index.html#technologia">Technologia</a>
+        <a href="index.html#zespol">O firmie</a>
+        <a href="index.html#aplikacja">Kontakt</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Copyright © 2026 PrimeShield. All rights reserved.</span>
+      <span>+48 533 188 235 · biuro@primeshield.pl</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/48533188235" class="mobile-cta-float" target="_blank" rel="noopener" aria-label="Wycena w 15 minut przez WhatsApp">
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="white" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+  Wycena w 15 minut
+</a>
+
+<div class="cookie-toast" id="cookieToast" role="dialog" aria-label="Zgoda na pliki cookie">
+  <div class="cookie-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+      <circle cx="12" cy="12" r="9" fill="#c98a4b"/>
+      <circle cx="9" cy="9" r="1.3" fill="#5c3a1e"/>
+      <circle cx="14.5" cy="8.5" r="1" fill="#5c3a1e"/>
+      <circle cx="15" cy="13" r="1.3" fill="#5c3a1e"/>
+      <circle cx="10" cy="14.5" r="1" fill="#5c3a1e"/>
+      <circle cx="12.5" cy="11" r="0.9" fill="#5c3a1e"/>
+    </svg>
+  </div>
+  <p class="cookie-text">Używamy plików cookie, żeby strona działała prawidłowo. Więcej w <a href="polityka-prywatnosci.html" class="cookie-link">polityce prywatności</a>.</p>
+  <button type="button" class="cookie-btn cookie-btn-solid" id="cookieAcceptNecessary">Akceptuję tylko niezbędne</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

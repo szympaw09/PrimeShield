@@ -14,6 +14,7 @@ Wszystkie pliki leżą płasko, bez podfolderów (żeby dało się je bez proble
 
 ```
 index.html
+szablony.html     — podstrona z wyszukiwarką bazy formatek
 style.css
 script.js
 favicon.jpg       — ikonka karty przeglądarki
